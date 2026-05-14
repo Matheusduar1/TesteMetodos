@@ -9,7 +9,8 @@ public class Funcionario {
         this.salario += valor;
     }
     void consulta (){
-        System.out.println("Nome: " + this.nome + " " + "Salário: " + " " + this.salario);
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Salário: R$" + this.salario);
     }
 }
 

@@ -20,8 +20,9 @@ public class TestaFuncionario {
         System.out.println("O nome do Funcionário 2 é " + f2.nome);
         System.out.println("O salário do Funcionário 2 é R$" + f2.salario);
         System.out.println("---");
-        f1.aumento(1000);
-        System.out.println("O Funcionário " + f1.nome + " recebeu aumento");
+        double valorAumento = (1000);
+        f1.aumento(valorAumento);
+        System.out.println("O Funcionário " + f1.nome + " recebeu um aumento de R$" + valorAumento);
         System.out.println("Salário atual do " + f1.nome + " é de R$" + f1.salario);
         System.out.println("---");
         System.out.println("-Dados do Funcionário 1: ");
