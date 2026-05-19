@@ -11,6 +11,8 @@ public class Classes extends Skills {
         this.classe = classe;
     }
 
-    
+    @Override
+    public String descricao() {
+        return super.descricao() + " -> Classes";
+    }
 }
-

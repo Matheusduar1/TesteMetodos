@@ -34,13 +34,24 @@ public class TestaPesonagens {
         p3.setMagia(80);
         p3.setVida(100);
         
-        System.out.println("Teste de dados: ");
+        System.out.println("===Teste de dados: ===");
         System.out.println("====================");
         p1.dadosPersonagem();
+        System.out.println("===Teste de status: ===");
         System.out.println("====================");
         p2.statusPersonagem();
         System.out.println("====================");
+        System.out.println("===Teste de Status Geral: ===");
         p3.statusGeral();
+        System.out.println("====================");
+        System.out.println("===Teste de ataque: ===");
+        p1.atacar();
+        System.out.println("====================");
+        System.out.println("===Teste de ataque aliado: ===");
+        p2.atacar(p1.getNome());
+        System.out.println(p1.descricao());
     }
+    
+    
     
 }

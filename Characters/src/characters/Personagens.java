@@ -64,5 +64,16 @@ public class Personagens extends Classes{
         System.out.println("");
         this.statusPersonagem();
     }
-    
+
+    public void atacar() {
+        System.out.println(this.getNome() + " Realizou o Ataque: " + super.getAtaque());
+    }
+
+    public void atacar(String alvo) {
+        System.out.println(this.getNome() + " Atacou -> " + alvo + " com: " + super.getPoder());
+    }
+    @Override
+    public String descricao(){
+        return super.descricao() +" -> " + "Personagens";
+    }
 }
