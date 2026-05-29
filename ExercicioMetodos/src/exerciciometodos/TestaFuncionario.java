@@ -3,29 +3,29 @@ package exerciciometodos;
 public class TestaFuncionario {
 
     public static void main(String[] args) {
-        //Criando objeto da classe funcion√°rio
+        //Criando objeto da classe funcion·rio
         Funcionario f1 = new Funcionario();
-        //Atribuindo Funcion√°rio 1
+        //Atribuindo Funcion·rio 1
         f1.nome = "Matheus Duarte";
         f1.salario = 2100.00;
-        //Atribuindo Funcion√°rio 1
+        //Atribuindo Funcion·rio 1
         Funcionario f2 = new Funcionario();
         f2.nome = "Lucas Narezzi";
         f2.salario = 5000.00;
-        //Resultado das atribui√ß√µes
-        System.out.println("-Funcion√°rios-");
-        System.out.println("O nome do Funcion√°rio 1 √© " + f1.nome);
-        System.out.println("O sal√°rio do Funcion√°rio 1 √© R$" + f1.salario);
+        //Resultado das atribuiÁıes
+        System.out.println("-Funcion·rios-");
+        System.out.println("O nome do Funcion·rio 1 È " + f1.nome);
+        System.out.println("O sal·rio do Funcion·rio 1 È R$" + f1.salario);
         System.out.println("---");
-        System.out.println("O nome do Funcion√°rio 2 √© " + f2.nome);
-        System.out.println("O sal√°rio do Funcion√°rio 2 √© R$" + f2.salario);
+        System.out.println("O nome do Funcion·rio 2 È " + f2.nome);
+        System.out.println("O sal·rio do Funcion·rio 2 È R$" + f2.salario);
         System.out.println("---");
         double valorAumento = (1000);
         f1.aumento(valorAumento);
-        System.out.println("O Funcion√°rio " + f1.nome + " recebeu um aumento de R$" + valorAumento);
-        System.out.println("Sal√°rio atual do " + f1.nome + " √© de R$" + f1.salario);
+        System.out.println("O Funcion·rio " + f1.nome + " recebeu um aumento de R$" + valorAumento);
+        System.out.println("Sal·rio atual do " + f1.nome + " È de R$" + f1.salario);
         System.out.println("---");
-        System.out.println("-Dados do Funcion√°rio 1: ");
+        System.out.println("-Dados do Funcion·rio 1: ");
         f1.consulta();
     }
     

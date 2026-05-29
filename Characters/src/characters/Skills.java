@@ -28,9 +28,7 @@ public class Skills {
     public void setPoder(String poder) {
         this.poder = poder;
     }
+
     
-    public String descricao() {
-        return "Skills";
-    }
     
 }
