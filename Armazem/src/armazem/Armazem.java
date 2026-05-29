@@ -24,12 +24,8 @@ public class Armazem {
             int total = (int)estoque[i].length;
             System.out.println("Estoque da Seção " + (i+1) + ": " + total);
         }
-        for (int i = 0; i < estoque.length; i++){
-            int soma = 0;
-            for (int j = 0; j < estoque[i].length; j++){
-                soma += estoque[i][j];
-        }
-        int estoqueGeral = (int)estoque[i][j].length;
+
+        int estoqueGeral = (int)estoque[i]+[j].length;
         
         
         System.out.println("Total de produtos do Armazém: " + estoqueGeral);
