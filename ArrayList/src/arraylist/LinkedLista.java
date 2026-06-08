@@ -1,5 +1,7 @@
 package arraylist;
+
 import java.util.LinkedList;
+
 public class LinkedLista {
 
     public static void main(String[] args) {
