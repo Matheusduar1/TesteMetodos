@@ -10,8 +10,6 @@ public class Retangulo extends Forma{
         this.altura = altura;
     }
 
-
-    
     @Override
     public double calcularArea(){
         return largura * altura;
@@ -20,4 +18,5 @@ public class Retangulo extends Forma{
     public double calcularPerimetro(){
         return 2 * (largura + altura);
     }
+    
 }

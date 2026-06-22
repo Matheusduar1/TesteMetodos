@@ -1,8 +1,7 @@
 package formasgeometricas;
 
-abstract class Forma {
-    public abstract double calcularArea();
-    public abstract double calcularPerimetro();
+public abstract class Forma {
+
     
     protected String nome;
     
@@ -10,6 +9,9 @@ abstract class Forma {
         this.nome = nome;
     }
 
+    public abstract double calcularArea();
+    public abstract double calcularPerimetro();
+    
     public void exibirInfo(){
         System.out.println("Forma: " + this.nome);
     }
